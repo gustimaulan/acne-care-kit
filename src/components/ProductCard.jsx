@@ -14,8 +14,8 @@ const ProductCard = () => {
           <p className="text-sm font-light">99+ reviews</p>
         </div>
         <div className="flex items-end justify-start gap-2">
-          <h1 className="font-bold text-2xl text-purple-800">Rp117.500 - Rp187.500</h1>
-          <p className="text-sm text-red-600 line-through mb-1">Rp200.000 - Rp250.000</p>
+          <h1 className="font-bold text-2xl text-purple-800">Mulai Rp117.500</h1>
+          <p className="text-sm text-red-600 line-through mb-1">Rp200.000</p>
         </div>
         <p className="text-xs font-light text-gray-400">
           *Jaminan produk berkualitas, dilengkapi dengan pouch yang mudah dibawa kemana-mana
