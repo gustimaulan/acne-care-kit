@@ -14,10 +14,10 @@ const CTACard = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-2 gap-2">
+      <div className="grid grid-cols-1 gap-2">
         {packages.map((pkg, index) => (
           <div className="mt-4 p-2 border border-gray-100 shadow shadow-slate-300 rounded-lg" key={index}>
-            <img className="mb-2 h-60" src={pkg.img} alt={pkg.alt} />
+            <img className="mb-2 w-full" src={pkg.img} alt={pkg.alt} />
             <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">
               {pkg.packageLabel}
             </h3>
